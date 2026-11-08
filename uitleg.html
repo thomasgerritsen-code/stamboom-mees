@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#2f6b57">
+<title>Uitleg stamboom</title>
+<link rel="icon" href="icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=Instrument+Sans:wght@400;500;600&display=swap">
+<style>
+:root{
+  --bg:#f3f4f1; --surface:#ffffff; --ink:#1d2421; --muted:#5f6b66; --line:#dde2dd;
+  --accent:#2f6b57; --accent-soft:#e3efe9; --dad-soft:#e6eef7; --mom-soft:#f6e8ec;
+  --name:"Newsreader", Georgia, "Times New Roman", serif;
+  --ui:"Instrument Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#141917; --surface:#1d2421; --ink:#e8ece9; --muted:#9aa7a1; --line:#2d3632;
+  --accent:#7cc4a6; --accent-soft:#1f3a30; --dad-soft:#1e2c3d; --mom-soft:#3a2229;
+}}
+:root[data-theme="dark"]{
+  --bg:#141917; --surface:#1d2421; --ink:#e8ece9; --muted:#9aa7a1; --line:#2d3632;
+  --accent:#7cc4a6; --accent-soft:#1f3a30; --dad-soft:#1e2c3d; --mom-soft:#3a2229;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--ui);font-size:16px;line-height:1.55}
+.wrap{max-width:640px;margin:0 auto;padding:28px 16px 64px}
+header{display:flex;gap:14px;align-items:center;margin-bottom:8px}
+header img{width:52px;height:52px;border-radius:12px;flex:none}
+h1{font-family:var(--name);font-weight:600;font-size:32px;line-height:1.15;margin:0}
+.lead{color:var(--muted);margin:10px 0 22px;font-size:17px}
+.open{display:inline-block;background:var(--accent);color:var(--surface);text-decoration:none;font-weight:600;padding:13px 20px;border-radius:12px}
+h2{font-family:var(--name);font-weight:600;font-size:24px;margin:38px 0 10px;display:flex;gap:10px;align-items:baseline}
+h2 .n{font-family:var(--ui);font-size:13px;font-weight:600;color:var(--accent);background:var(--accent-soft);border-radius:99px;padding:2px 9px;transform:translateY(-3px)}
+h3{font-size:16px;margin:0 0 4px}
+p{margin:0 0 10px}
+ol,ul{margin:0 0 10px;padding-left:22px}
+li{margin:4px 0}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px 16px 8px;margin:12px 0}
+.grid{display:grid;grid-template-columns:1fr;gap:10px}
+@media (min-width:560px){.grid.two{grid-template-columns:1fr 1fr}}
+.tab{display:grid;grid-template-columns:40px 1fr;gap:12px;align-items:start;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px}
+.tab svg{width:28px;height:28px;fill:none;stroke:var(--accent);stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;margin-top:2px}
+.tab p{margin:0;color:var(--muted);font-size:15px}
+.tab h3{color:var(--ink)}
+.chip{display:inline-block;border-radius:6px;padding:0 7px;font-size:14px;font-weight:500}
+.chip.m{background:var(--dad-soft)} .chip.f{background:var(--mom-soft)}
+.chip.nw{border:2px solid var(--accent)}
+.tip{border-left:3px solid var(--accent);background:var(--accent-soft);border-radius:0 10px 10px 0;padding:10px 14px;margin:12px 0;font-size:15px}
+.muted{color:var(--muted)}
+kbd{font-family:var(--ui);font-size:14px;background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:0 6px}
+footer{margin-top:44px;color:var(--muted);font-size:14px;border-top:1px solid var(--line);padding-top:16px}
+a{color:var(--accent)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <img src="apple-touch-icon.png" alt="">
+  <h1>Zo werkt de stamboom</h1>
+</header>
+<p class="lead">De familiestamboom van Mees als app op je telefoon of computer. Met alle voorouders van papa’s en mama’s kant, verhalen, oude krantenberichten, akten en een kaart van waar iedereen woonde.</p>
+<a class="open" href="./">Open de stamboom</a>
+
+<h2><span class="n">1</span>Openen met de code</h2>
+<ol>
+  <li>Open de link van de stamboom in <strong>Safari</strong> (iPhone) of <strong>Chrome</strong> (Android). Kreeg je de link via WhatsApp? Tik dan op de drie puntjes of het kompasje en kies <em>Openen in browser</em>.</li>
+  <li>Vul de <strong>code van 8 cijfers</strong> in die je van de familie hebt gekregen. De stamboom opent vanzelf zodra het laatste cijfer is ingevuld.</li>
+  <li>Laat het vinkje <strong>Onthoud op dit apparaat</strong> aan staan, dan hoef je de code maar één keer in te vullen.</li>
+</ol>
+<div class="tip">De eerste keer openen duurt een paar seconden: de hele stamboom, met foto’s van akten en knipsels, wordt dan ingeladen.</div>
+
+<h2><span class="n">2</span>Als app op je telefoon</h2>
+<div class="grid two">
+  <div class="card">
+    <h3>iPhone</h3>
+    <ol>
+      <li>Open de stamboom in Safari.</li>
+      <li>Tik op <strong>Delen</strong> (vierkantje met pijl omhoog).</li>
+      <li>Kies <strong>Zet op beginscherm</strong> → <strong>Voeg toe</strong>.</li>
+    </ol>
+  </div>
+  <div class="card">
+    <h3>Android</h3>
+    <ol>
+      <li>Open de stamboom in Chrome.</li>
+      <li>Tik op de <strong>drie puntjes ⋮</strong> rechtsboven.</li>
+      <li>Kies <strong>App installeren</strong> of <strong>Toevoegen aan startscherm</strong>.</li>
+    </ol>
+  </div>
+</div>
+<p class="muted">Je krijgt een groen icoon met een M. Daarmee opent de stamboom schermvullend, net als een gewone app.</p>
+
+<h2><span class="n">3</span>De knoppen onderin</h2>
+<div class="grid">
+  <div class="tab">
+    <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg>
+    <div><h3>Persoon</h3><p>Je begint bij Mees. Onder iedere persoon staan de vader en moeder: tik erop en je gaat een generatie terug. Met de pijl linksboven ga je weer terug naar het kind, met het huisje rechtsboven direct naar Mees. Per persoon zie je het levenspad, het verhaal, beroepen, broers en zussen, krantenknipsels en originele akten. Tik op een knipsel of akte om hem te vergroten.</p></div>
+  </div>
+  <div class="tab">
+    <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+    <div><h3>Zoeken</h3><p>Typ een naam, bijvoorbeeld een achternaam als Kroon of Makkinga, en tik op de persoon die je zoekt.</p></div>
+  </div>
+  <div class="tab">
+    <svg viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="5" rx="1"/><rect x="3" y="16" width="6" height="5" rx="1"/><rect x="15" y="16" width="6" height="5" rx="1"/><path d="M12 8v4M6 16v-4h12v4"/></svg>
+    <div><h3>Boom</h3><p>Een klassieke stamboom. Kies hoeveel generaties je wilt zien en of je de kant van papa of mama bekijkt.</p></div>
+  </div>
+  <div class="tab">
+    <svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+    <div><h3>Kaart</h3><p>Waar woonde de familie? Kies <em>Plaatsen</em>, <em>Families</em>, <em>Verhuizingen</em> of <em>Huwelijken</em>. Met de jaarschuif (of de afspeelknop) reis je door de tijd. De kaart van Nederland verandert mee: polders die drooggelegd worden, Zeeuwse eilanden die aan elkaar groeien, de Afsluitdijk.</p></div>
+  </div>
+  <div class="tab">
+    <svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-8M22 20H2"/></svg>
+    <div><h3>Weetjes</h3><p>Opvallende verhalen en cijfers over de hele familie: hoe oud werden ze, op welke leeftijd trouwden ze, de meest gegeven voornamen, beroepen en de grootste verhuizingen.</p></div>
+  </div>
+  <div class="tab">
+    <svg viewBox="0 0 24 24"><path d="M3 18a9 9 0 0 1 18 0M7 18a5 5 0 0 1 10 0M12 9v4M5.6 11.6l2.8 2.8M18.4 11.6l-2.8 2.8"/></svg>
+    <div><h3>Waaier</h3><p>Alle voorouders in één halve cirkel, met Mees in het midden en elke ring een generatie verder terug. <strong>Zoom met twee vingers</strong> (of met + en −) en tik op een vakje om die persoon te openen.</p></div>
+  </div>
+</div>
+
+<h2><span class="n">4</span>Kleuren en tekens</h2>
+<ul>
+  <li><span class="chip m">Blauw</span> is een man, <span class="chip f">roze</span> een vrouw.</li>
+  <li>Een vakje met een <span class="chip nw">groene rand</span> is iemand die nieuw is gevonden in archieven en kranten.</li>
+  <li><strong>Waarschijnlijk</strong> of <strong>afgeleid uit vadersnaam</strong> betekent: dit past bij alle bronnen, maar is nog niet met zekerheid bewezen.</li>
+  <li>Bij <strong>Bronnen</strong> en <strong>Zoek verder online</strong> vind je links naar de originele akten bij Open Archieven en de kranten in Delpher.</li>
+</ul>
+
+<h2><span class="n">5</span>Goed om te weten</h2>
+<ul>
+  <li>Deel de link gerust met familie, maar stuur de <strong>code apart</strong> en niet openbaar rond.</li>
+  <li>Van mensen die nog leven staat bewust zo weinig mogelijk in de stamboom.</li>
+  <li>De stamboom wordt af en toe aangevuld. Je ziet de nieuwste versie vanzelf als je de app opnieuw opent.</li>
+  <li>Klopt er iets niet, of heb je een verhaal, foto of naam die erbij hoort? Laat het Thomas weten.</li>
+</ul>
+
+<footer>Stamboom van Mees Gerritsen Kroon · <a href="./">naar de stamboom</a></footer>
+</div>
+</body>
+</html>
